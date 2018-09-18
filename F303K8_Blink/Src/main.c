@@ -116,7 +116,7 @@ int main(void)
 	}
 
 	for(int i=0; i<5; i++) {
-			HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_3);
+			HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
 			HAL_Delay(500);
 		}
 
