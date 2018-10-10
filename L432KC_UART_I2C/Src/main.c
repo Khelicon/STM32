@@ -82,7 +82,7 @@ void HS_Serial_UART_Send(char *data, int dataLen);
 int main(void)
 {
   /* USER CODE BEGIN 1 */
-	uint8_t HelloMSG[] = "Hello UART";
+	uint8_t HelloMSG[] = "SHT30 I2C Example";
 	char outBuff[50];
 	char response_flag;
 	float tempC = 0;
