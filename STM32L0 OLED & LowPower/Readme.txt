@@ -5,6 +5,6 @@ Devices used in example:
 2. SHT30 Temperature and humdity sensor.
 
 Feature demonstrated: 
-1. Standby Mode to send MCU to Standby Mode.
+1. Standby Mode to send MCU into low power.
 2. LPUART for terminal debugging and interrupt wakeup from standby mode.
 3. RTC for wakeup from standby mode. 
